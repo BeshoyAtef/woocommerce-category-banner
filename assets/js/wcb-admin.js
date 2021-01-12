@@ -3,7 +3,7 @@ jQuery( document ).ready(function($) {
     /*
     *    Handle WCB Image Uploading
     */
-    jQuery('.wcb_upload_file_button').live('click', function( event ){
+    jQuery('.wcb_upload_file_button').on('click', function( event ){
     
         event.preventDefault();
 
