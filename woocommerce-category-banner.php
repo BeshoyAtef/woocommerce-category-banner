@@ -48,8 +48,7 @@ class WCB_Category_Banner {
 			
 			// Enque the script
 			wp_enqueue_script( 'wcb_admin_script',
-				plugin_dir_url( __FILE__ ) . 'assets/js/wcb-admin.js',
-				array('jquery'), '1.0.0', true
+				plugin_dir_url( __FILE__ ) . 'assets/js/wcb-admin.js'
 			);
 			
 			// Add Style
